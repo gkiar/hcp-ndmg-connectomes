@@ -1,0 +1,7 @@
+{
+  "bids_dir": "/data/",
+  "output_dir": "/data/derivatives/",
+  "analysis_level": "participant",
+  "modality": "dwi",
+  "participant_label": ["01", "02"]
+}
