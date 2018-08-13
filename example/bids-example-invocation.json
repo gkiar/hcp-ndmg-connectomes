@@ -1,6 +1,6 @@
 {
   "bids_dir": "/data/hcp1200_minimal/",
-  "output_dir": "/data/hcp1200_minimal/derivatives/bids-example/",
+  "output_dir_name": "/data/hcp1200_minimal/derivatives/bids-example/",
   "analysis_level": "participant",
   "participant_label": ["100206"],
   "skip_validator": true
