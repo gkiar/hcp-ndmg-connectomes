@@ -1,0 +1,7 @@
+{
+  "bids_dir": "/data/hcp1200_minimal/",
+  "output_dir": "/data/hcp1200_minimal/derivatives/",
+  "analysis_level": "participant",
+  "modality": "dwi",
+  "participant_label": ["100206"]
+}

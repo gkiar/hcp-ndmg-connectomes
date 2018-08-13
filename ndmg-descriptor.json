@@ -1,5 +1,5 @@
 {
-    "command-line": "ndmg_bids BIDS_DIR OUTPUT_DIR ANALYSIS_LEVEL MODALITY PARTICIPANT_LABEL SESSION_LABEL BUCKET REMOTE_PATH PUSH_DATA DATASET ATLAS MINIMAL HEMISPHERES LOG DEBUG STC",
+    "command-line": "mkdir -p OUTPUT_DIR && ndmg_bids BIDS_DIR OUTPUT_DIR ANALYSIS_LEVEL MODALITY PARTICIPANT_LABEL SESSION_LABEL BUCKET REMOTE_PATH PUSH_DATA DATASET ATLAS MINIMAL HEMISPHERES LOG DEBUG STC",
     "container-image": {
       "image": "neurodata/m3r-release",
       "index": "index.docker.io",
@@ -54,6 +54,7 @@
             "name": "participant_label",
             "optional": true,
             "type": "String",
+				    "list" : true,
             "value-key": "PARTICIPANT_LABEL"
         },
         {
@@ -63,6 +64,7 @@
             "name": "session_label",
             "optional": true,
             "type": "String",
+				    "list" : true,
             "value-key": "SESSION_LABEL"
         },
         {
