@@ -3,10 +3,10 @@ Instructions for running HCP data with ndmg (functional and diffusion) on AWS wi
 
 Links:
 - https://github.com/gkiar/hcp-ndmg-connectomes
-- To log in to the console: console.aws.amazon.com
-- To check the usage: log in with email (bratislav.misic@mcgill.ca) and check the billing dashboard
-- To describe tools: boutiques.github.io
-- To launch tools: clowdr.github.io
+- To log in to the console: https://console.aws.amazon.com
+- To check the usage: log in with email and check the billing dashboard
+- To describe tools: https://boutiques.github.io
+- To launch tools: https://clowdr.github.io
 
 AWS dictionary:
 - EC2/ECS: shows what computers are running/turned on
