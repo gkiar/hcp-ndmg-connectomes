@@ -37,7 +37,7 @@ Using Clowdr:
                  --cluster slurm \
                  -bV \
                  --simg ~/bids-ndmg.simg \
-                 -a account:rpp-aevans-ab,time:2:00:00,mem=18G \
+                 -a account:rpp-aevans-ab,time:4:00:00,mem=22G \
                  -v /project/6013484/gkiar/:/project/6013484/gkiar/
 
 
