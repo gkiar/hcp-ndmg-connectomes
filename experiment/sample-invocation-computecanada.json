@@ -1,0 +1,6 @@
+{
+  "bids_dir": "/project/6013484/gkiar/data_hcp1200/",
+  "output_dir": "/project/6013484/gkiar/data_hcp1200/derivatives/diffusion/",
+  "analysis_level": "participant",
+  "participant_label": ["100206"]
+}

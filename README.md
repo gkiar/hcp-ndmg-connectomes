@@ -18,6 +18,8 @@ AWS dictionary:
 Using Clowdr:
 
 
+... On Amazon:
+
     clowdr cloud <tool-descriptor.json> \
                  <tool-inputs.json> \
                  s3://<path-to-clowdr-outputs> \
@@ -26,5 +28,18 @@ Using Clowdr:
                  <path-to-aws-credentials.csv> \
                  -Vb \
                  --region us-east-1
+
+... On Compute Canada:
+
+    clowdr local <tool-descriptor.json> \
+                 <tool-inputs.json> \
+                 <path-to-clowdr-outputs> \
+                 --cluster slurm \
+                 -bV \
+                 --simg ~/bids-ndmg.simg \
+                 -a account:rpp-aevans-ab,time:2:00:00,mem=18G \
+                 -v /project/6013484/gkiar/:/project/6013484/gkiar/
+
+
 
 (`-Vb` makes it verbose and BIDS-aware)
