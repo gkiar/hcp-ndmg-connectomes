@@ -33,5 +33,5 @@ simplejson==3.16.0
 six==1.11.0
 slurmpy==0.0.7
 termcolor==1.1.0
-urllib3==1.24.2
+urllib3==1.26.5
 Werkzeug==0.15.3
