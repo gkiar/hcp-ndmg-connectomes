@@ -4,7 +4,7 @@ awscli==1.15.74
 boto3==1.7.73
 botocore==1.10.73
 boutiques==0.5.12
-certifi==2018.4.16
+certifi==2022.12.7
 chardet==3.0.4
 click==6.7
 clowdr==0.0.13
